@@ -1,0 +1,51 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FAFAFA;
+	color: #2F3C53;
+}
+h1{
+	font-size: 48pt;
+}
+.title1{
+	margin-bottom: 0;
+}
+.title2{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.title3{
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.main{
+	max-width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.text_center{
+	text-align: center;
+}
+.text_right{
+	text-align: right;
+}
+.card{
+	background-color: white;
+	padding: 10px 20px;
+	margin: 20px 0;
+	-webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.15);
+}
+.user{
+	color: #e74c3c;
+}
+.fav_color{
+	color: #8EA5EB;
+}
+.saqbot_head{
+	width: 200px;
+	margin: 30px -70px -20px -50px;
+	float: left;
+}
+.saqbot_titles{
+}
