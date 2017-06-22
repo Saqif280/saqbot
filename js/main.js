@@ -82,6 +82,7 @@ $(document).ready(function() {
 		}
 	});
 	// talk animation
+	var talking = false;
 	animateSpeech();
 	// enter and mic listener
 	$(document).keypress(function(e) {
@@ -229,7 +230,6 @@ function stopRecognition(){
 }
 
 // dictation animation
-var talking = false;
 var saqbot_vers = ['saqbot_0','saqbot_1','saqbot_2','saqbot_3','saqbot_4','saqbot_5'];
 function animateSpeech(){
 	setInterval(function(){
@@ -238,9 +238,13 @@ function animateSpeech(){
 		if(talking){
 			var rand = Math.floor(Math.random()*(saqbot_vers.length-1));
 			$('.saqbot_head').attr('src',start+saqbot_vers[rand]+ending);
+			$('.saqbot_head').attr('srcset',start+saqbot_vers[rand]+ending);
+			$('.saqbot_head').attr('data-srcset',start+saqbot_vers[rand]+ending);
 		}
 		else{
 			$('.saqbot_head').attr('src',start+saqbot_vers[0]+ending);
+			$('.saqbot_head').attr('srcset',start+saqbot_vers[0]+ending);
+			$('.saqbot_head').attr('data-srcset',start+saqbot_vers[0]+ending);
 		}
 	},70);
 }
