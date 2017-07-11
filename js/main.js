@@ -56,6 +56,9 @@ var keywordDictionary = {
 	age: "Saqif was born in 1997. That makes him 20 years old."
 }
 
+// talk animation
+var talking = false;
+
 // DOCUMENT LOAD
 $(document).ready(function() {
 	// auto select input
@@ -81,8 +84,7 @@ $(document).ready(function() {
 			$('.voice_icon').addClass('glyphicon-volume-up');
 		}
 	});
-	// talk animation
-	var talking = false;
+	
 	animateSpeech();
 	// enter and mic listener
 	$(document).keypress(function(e) {
