@@ -37,7 +37,7 @@ for(var key in translationsList){
 // responses
 var keywordDictionary = {
 	greeting: "Hi! I am Saqbot, created to represent Saqif on the internet. Ask me anything you'd like to know about Saqif and I will do my best to assist you.",
-	resume: "Here is a link to Saqif's <a href='resume.pdf' target='_blank'>resumé</a>. You can find information on his experiences, skills, and even coursework here.",
+	resume: "Here is a link to Saqif's <a href='http://saqif.com/resume.pdf' target='_blank'>resumé</a>. You can find information on his experiences, skills, and even coursework here.",
 	transcript: "Please contact Saqif to request to view his transcript.",
 	education: "Saqif studies Information Science at Cornell University (Class of 2019). Before this, he went to Jamesville Dewitt High School which is also in Upstate New York. Contrary to his movement, he would like to get out of this area.",
 	programming: "Saqif began programming in 2012 and web development in 2014. He has worked with many technologies since and devotes time to projects and explorations. You can read more about this on his <a href='resume.pdf' target='_blank'>resumé</a>.",
