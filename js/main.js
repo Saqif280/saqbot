@@ -65,6 +65,14 @@ $(document).ready(function() {
 	var message_input = $('.message_input');
 	message_input.focus();
 	message_input.select();
+	// check for artyom support
+	if(!artyom.recognizingSupported()){
+		$(".message_input").attr("placeholder","");
+		$(".alert").show();
+	}
+	$(".close_alert").click(function(){
+		$(".alert").hide();
+	});
 	// enter button click listener
 	$('.message_submit').click(function(){
 		enter();
